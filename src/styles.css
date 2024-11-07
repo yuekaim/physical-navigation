@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@keyframes strobe {
+  0% {
+    background-color: white;
+  }
+  50% {
+    background-color: red;
+  }
+}
+
+@keyframes strobe2 {
+  0% {
+    color: red;
+  }
+  50% {
+    color: white;
+  }
+}
